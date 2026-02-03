@@ -51,7 +51,8 @@ Pick-up Time: ${formData.pickupTime}
   return (
     <section className="py-16 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4">
-        <div className="bg-white rounded-2xl shadow-xl p-6 sm:p-8 md:p-12">
+      <iframe src="https://booking.royalerides.co.uk/booking-form" className="iframe-responsive" style={{width: "100%", minHeight: "550px", border: "0px"}} title="Book Now"></iframe>
+        {/*<div className="bg-white rounded-2xl shadow-xl p-6 sm:p-8 md:p-12">
 
           <div className="text-center mb-10">
             <h2 className="text-2xl sm:text-3xl font-semibold text-[#002462]">
@@ -180,7 +181,7 @@ Pick-up Time: ${formData.pickupTime}
             </div>
           </form>
 
-        </div>
+        </div>*/}
       </div>
     </section>
   );
